@@ -11,31 +11,12 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{B91763E6-9E15-40C7-A2F3-55841EE3564C}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{76AD853A-296E-417C-8E37-C7F93CC521DF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
-  <DTS:Executables>
-    <DTS:Executable
-      DTS:refId="Package\Script Task"
-      DTS:CreationName="Microsoft.ScriptTask"
-      DTS:Description="Script Task"
-      DTS:DTSID="{8039C55B-C7A4-4B65-8DA2-D69096352585}"
-      DTS:ExecutableType="Microsoft.ScriptTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Script Task"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <ScriptProject
-          Name="ST_f21541047f154982be2d5e263f70fa85"
-          VSTAMajorVersion="16"
-          VSTAMinorVersion="0"
-          Language="CSharp" />
-      </DTS:ObjectData>
-    </DTS:Executable>
-  </DTS:Executables>
+  <DTS:Executables />
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
 <!--If you manually edit this section and make a mistake, you can delete it. -->
@@ -48,15 +29,11 @@
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Script Task"
-          TopLeft="176,143" />
         <AnnotationLayout
           Text="This is a placeholder for the Web API from JT to update Flash Data in the FlightAvailability table.  "
           ParentId="Package"
           FontInfo="{assembly:Null}"
-          Size="541,60"
+          Size="541,40"
           Id="8548bd8f-8cc0-43aa-92db-d5384b0ad1aa"
           TopLeft="55,79" />
       </GraphLayout>
